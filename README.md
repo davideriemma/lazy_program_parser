@@ -4,15 +4,15 @@ A lazy way to insert conditional compilation in C/C++ code
 this is an utility i used wile studying for an OS exam. This program saves you the burden of adding #ifdef *symbolic_constant* and #endif every time you need to add some debug code, 
 or anything that will be compiled conditionally. The utility is pretty straightforwar, it uses the sytax
 
-@ "string to printf %d\n" argument
+`@ "string to printf %d\n" argument`
 
-and translates in t
+and translates in
 
-#ifndef CONSTANT_SPECIFIED_ON_COMMAND_LINE
+`#ifndef CONSTANT_SPECIFIED_ON_COMMAND_LINEE`
 
-  printf("string to printf %d\n", argument);
+`  printf("string to printf %d\n", argument);`
 
-#endif
+`#endif`
 
 by using the command
 
